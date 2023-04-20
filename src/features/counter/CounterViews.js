@@ -33,12 +33,12 @@ const CounterViews = () => {
         <button onClick={handleReset} className="btn btn-warning m-2">
           Reset
         </button>
-        {/* <button
+        <button
           onClick={dispatch(incrementByAmount(5))}
           className="btn btn-primary m-2"
         >
           Increase by 5
-        </button> */}
+        </button>
       </div>
     </div>
   );
